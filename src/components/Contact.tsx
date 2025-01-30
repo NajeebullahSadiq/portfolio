@@ -89,7 +89,7 @@ const Contact = () => {
               <Box sx={{ display: "flex", justifyContent: "center", gap: 2 }}>
                 <IconButton
                   component="a"
-                  href="#"
+                  href="https://github.com/NajeebullahSadiq"
                   target="_blank"
                   sx={{
                     color: "primary.main",
@@ -103,7 +103,7 @@ const Contact = () => {
                 </IconButton>
                 <IconButton
                   component="a"
-                  href="#"
+                  href="https://www.linkedin.com/in/najeebullah-sadiq-3b896b178/"
                   target="_blank"
                   sx={{
                     color: "primary.main",
@@ -115,21 +115,7 @@ const Contact = () => {
                 >
                   <Linkedin />
                 </IconButton>
-                <IconButton
-                  component="a"
-                  href="#"
-                  target="_blank"
-                  sx={{
-                    color: "primary.main",
-                    border: "1px solid rgba(96, 165, 250, 0.2)",
-                    "&:hover": {
-                      backgroundColor: "rgba(96, 165, 250, 0.1)",
-                    },
-                  }}
-                >
-                  <Twitter />
-                </IconButton>
-                <IconButton
+                {/* <IconButton
                   component="a"
                   href="#"
                   target="_blank"
@@ -142,10 +128,10 @@ const Contact = () => {
                   }}
                 >
                   <Instagram />
-                </IconButton>
+                </IconButton> */}
                 <IconButton
                   component="a"
-                  href="#"
+                  href="https://facebook.com/najib.sadiq.37"
                   target="_blank"
                   sx={{
                     color: "primary.main",
